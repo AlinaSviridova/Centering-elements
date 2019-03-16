@@ -1,0 +1,538 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+a{
+    text-decoration: none;
+}
+
+li{
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color:#ffffff;        /* Цвет фона страницы */
+  }
+  #block {width:340px;    padding-bottom: 40px;}
+  #cssmenu {background-color:red;}
+  ul { list-style: none; margin: 0; padding: 0; }
+  .r {float:left;}
+  .rollover { float:left;
+    margin-right: 5px;
+    display:block;
+    width:100px;
+    height:30px;
+    border:solid 1px #777777;
+    background: url(images/toggler0.png); no-repeat;  /* Путь к кнопке */
+    background-color:#FFFFCC;
+  }
+  .rollover:hover {
+    background: url(images/toggler.png); no-repeat;  /* Путь к кнопке, при наведении */
+  }
+  #vv1, #vv2, #vv3 {position:absolute; margin-top:32px; width:150px; border: solid 1px; background-color:#FFFFFF;}
+  .ss { text-decoration:none; display: block; color:#3300FF; width:148px; height:20px;}
+  .ss:hover {color:red; border: solid 1px; height:20px; background-color:#FFFFCC;}
+   
+   
+  ul#cssmenu li:hover ul,
+  ul#cssmenu ul li:hover ul,
+  ul#cssmenu li.iehover ul,
+  ul#cssmenu ul li.iehover ul {
+          display: block;
+  }
+   
+  ul ul {display:none} // Все списки, вложенные в первый, по умолчанию скрыты
+   
+  ul#cssmenu li:hover ul,
+  ul#cssmenu ul li:hover ul,
+  ul#cssmenu li.iehover ul,
+  ul#cssmenu ul li.iehover ul {
+          display: block;
+  }
+
+
+ /* -- -----------------1----------------- -  */
+
+
+
+ .body1 {
+    background: #f06d06;
+  }
+  
+  .body1 p, nav {
+    text-align: center;
+    background: white;
+    margin: 20px 0;
+    padding: 10px;
+  }
+  
+  .body1 nav a {
+    text-decoration: none;
+    background: #333;
+    border-radius: 5px;
+    color: white;
+    padding: 3px 8px;
+  }
+
+
+   /* -- -----------------2----------------- -  */
+ 
+  
+  main {
+    background: white;
+    margin: 20px 0;
+    padding: 10px;
+  }
+  
+  .center {
+    margin: 0 auto;
+    width: 200px;
+    background: black;
+    padding: 20px;
+    color: white;
+  }
+
+
+   /* -- -----------------3----------------- -  */
+
+
+   .body3 {
+    background: #f06d06;
+    font-size: 80%;
+  }
+  
+  .body3 main {
+    background: white;
+    margin: 20px 0;
+    padding: 10px;
+  }
+  
+  .body3 main div {
+    background: black;
+    color: white;
+    padding: 15px;
+    max-width: 125px;
+    margin: 5px;
+  }
+  
+  .inline-block-center {
+    text-align: center;
+  }
+  .inline-block-center div {
+    display: inline-block;
+    text-align: left;
+  }
+  
+  .flex-center {
+    display: flex;
+    justify-content: center;
+  }
+
+
+/* -- -----------------4----------------- -  */
+
+
+.body4 {
+    background: #f06d06;
+    font-size: 80%;
+  }
+  
+  .body4 main {
+    background: white;
+    margin: 20px 0;
+    padding: 10px;
+  }
+  
+  .body4 main div {
+    background: black;
+    margin: 0 auto;
+    color: white;
+    padding: 15px;
+    margin: 5px auto;
+  }
+  
+  .body4 main div:nth-child(1) {
+    width: 200px;
+  }
+  .body4 main div:nth-child(2) {
+    width: 400px;
+  }
+  .body4 main div:nth-child(3) {
+    width: 125px;
+  }
+
+  /* -- -----------------5----------------- -  */
+
+
+.body5 { background: #f06d06;
+    font-size: 80%;
+  }
+  
+  main {
+    background: white;
+    margin: 20px 0;
+    padding: 50px;
+  }
+  
+  main a {
+    background: black;
+    color: white;
+    padding: 40px 30px;
+    text-decoration: none;
+  }
+
+
+  /* -- -----------------6----------------- -  */
+
+
+  .body6 {
+    background: #f06d06;
+    font-size: 80%;
+  }
+  
+  .body6 main {
+    background: white;
+    margin: 20px 0;
+    padding: 40px;
+  }
+  
+  .body6 main div {
+    background: black;
+    color: white;
+    height: 100px;
+    line-height: 100px;
+    padding: 20px;
+    width: 50%;
+    white-space: nowrap;
+  }
+
+
+ /* -- -----------------7----------------- -  */
+
+
+ .body7 {
+    background: #f06d06;
+    font-size: 80%;
+  }
+  
+  .body7 div {
+    background: white;
+    width: 240px;
+    margin: 20px;
+  }
+  
+  .body7 .flex-center {
+    background: black;
+    color: white;
+    border: 10px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 200px;
+    resize: vertical;
+    overflow: auto;
+  }
+  .body7 .flex-center p {
+    margin: 0;
+    padding: 20px;
+  }
+
+
+ /* -- -----------------8----------------- -  */
+
+
+ .body8 {
+    background: #f06d06;
+    font-size: 80%;
+  }
+  
+  .body8 div {
+    background: white;
+    width: 240px;
+    height: 200px;
+    margin: 20px;
+    color: white;
+    resize: vertical;
+    overflow: auto;
+    padding: 20px;
+  }
+  
+  .ghost-center {
+    position: relative;
+  }
+  .ghost-center::before {
+    content: " ";
+    display: inline-block;
+    height: 100%;
+    width: 1%;
+    vertical-align: middle;
+  }
+  .ghost-center p {
+    display: inline-block;
+    vertical-align: middle;
+    width: 190px;
+    margin: 0;
+    padding: 20px;
+    background: black;
+  }
+
+
+
+
+ /* -- -----------------9----------------- -  */
+
+
+ .body9 {
+    background: #f06d06;
+    font-size: 80%;
+  }
+  
+  .body9 main {
+    background: white;
+    height: 300px;
+    margin: 20px;
+    width: 300px;
+    position: relative;
+    resize: vertical;
+    overflow: auto;
+  }
+  
+  .body9 main div {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    right: 20px;
+    height: 100px;
+    margin-top: -70px;
+    background: black;
+    color: white;
+    padding: 20px;
+  }
+
+
+   /* -- -----------------10----------------- -  */
+
+
+ .body10 {
+    background: #f06d06;
+    font-size: 80%;
+  }
+  
+  .body10 main {
+    background: white;
+    height: 300px;
+    margin: 20px;
+    width: 300px;
+    position: relative;
+    resize: vertical;
+    overflow: auto;
+  }
+  
+  .body10 main div {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    right: 20px;
+    background: black;
+    color: white;
+    padding: 20px;
+    /* Используйте translate, чтобы переместить элемент вверх на половину своей собственной высоты. ( '50%' в 'translate(0, -50%)' указывают на высоту самого элемента.) */
+    transform: translateY(-50%);
+    resize: vertical;
+    overflow: auto;
+  }
+
+
+   /* -- -----------------11----------------- -  */
+
+
+   .body11 {
+    background: #f06d06;
+    font-size: 80%;
+  }
+  
+  .body11 main {
+    background: white;
+    height: 300px;
+    width: 200px;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    resize: vertical;
+    overflow: auto;
+  }
+  
+  .body11 main div {
+    background: black;
+    color: white;
+    padding: 20px;
+    resize: vertical;
+    overflow: auto;
+  }
+
+
+     /* -- -----------------12----------------- -  */
+
+
+     .body12 { background: #f06d06;
+        font-size: 80%;
+        padding: 20px;
+      }
+      
+      .body12  main {
+        position: relative;
+        background: white;
+        height: 200px;
+        width: 60%;
+        margin: 0 auto;
+        padding: 20px;
+        resize: both;
+        overflow: auto;
+      }
+      
+      .body12  main div {
+        background: black;
+        color: white;
+        width: 200px;
+        height: 100px;
+        margin: -70px 0 0 -120px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        padding: 20px;
+      }
+
+
+           /* -- -----------------13----------------- -  */
+
+
+     .body13 { background: #f06d06;
+        font-size: 80%;
+        padding: 20px;
+      }
+      
+      .body13   main {
+        position: relative;
+        background: white;
+        height: 200px;
+        width: 60%;
+        margin: 0 auto;
+        padding: 20px;
+        resize: both;
+        overflow: auto;
+      }
+      
+      .body13   main div {
+        background: black;
+        color: white;
+        width: 50%;
+        /* Используйте translate, чтобы переместить элемент вверх на половину своей собственной высоты. ( '50%' в 'translate(0, -50%)' указывают на высоту самого элемента.) */
+        transform: translate(-50%, -50%);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        padding: 20px;
+        resize: both;
+        overflow: auto;
+      }
+
+ /* -- -----------------14----------------- -  */
+
+
+     .body14 {  background: #f06d06;
+        font-size: 80%;
+        padding: 20px;
+      }
+      
+      .body14  main {
+        background: white;
+        height: 200px;
+        width: 60%;
+        margin: 0 auto;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        resize: both;
+        overflow: auto;
+      }
+      
+      .body14  main div {
+        background: black;
+        color: white;
+        width: 50%;
+        padding: 20px;
+        resize: both;
+        overflow: auto;
+      }
+
+
+.lala{
+    background: black;
+    color: white;
+    border: 10px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 200px;
+    resize: vertical;
+    overflow: auto;
+}
+      .btn {
+          background: #298cad;
+          color: white;
+          font-size: 18px;
+          text-transform: uppercase;
+          text-align: center;
+          display:block;
+          line-height:46px;
+          margin-top:30px;
+          margin-bottom: 10px;
+          margin: 0 auto;
+          position: relative;
+          z-index: 1;
+          /* скрываем созданные нами псевдоэлементы за пределами кнопки */
+       overflow: hidden;
+       border-bottom: 3px solid red;
+        }
+
+      .btn:before {
+        content: "\21D2";
+      }
+
+      .btn:before,
+      .btn:after {
+          content: ""; 
+          display:block;
+          width: 100%;
+          height: 100%;
+          background:yellow;
+          position: absolute;
+          top: 0;
+          left: -100%;
+          /* плавность перемещения */
+          transition: .3s;
+          z-index: -1;
+      }
+      /* .btn:before {
+        content: "\21D2";
+      } */
+      .btn:after {
+          background:red;
+          top: 100%;
+          left:0;
+          /* небольшая пауза */
+          transition-delay: .2s;
+      }
+
+      /* анимация */
+      .btn:hover::before {
+          left:0;
+      }
+      .btn:hover::after {
+        top:0;
+    }
