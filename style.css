@@ -1,8 +1,12 @@
 *{
     margin: 0;
     padding: 0;
-
+    box-sizing: border-box; 
 }
+html {
+  font: 1.1em/1.4 Helvetica, sans-serif;
+}
+ 
 a{
     text-decoration: none;
 }
@@ -536,3 +540,41 @@ body {
       .btn:hover::after {
         top:0;
     }
+
+
+
+
+    /* делаем респонсивный текст */
+
+    .wrapper {
+      border: 5px solid rgb(86,98,110);
+      margin: 50px auto;
+    }
+
+    .multicol {
+       column-width: 250px; 
+        column-gap: 20px; 
+      padding: 10px;
+    }
+
+
+     .wrapper > div{
+      background-color: rgb(89,161,175);
+      padding: 10px;
+      color: #fff;
+      font-weight: bold;
+    }  
+
+    .flex {
+      display:flex;
+      flex-wrap: wrap;
+    }
+
+    .flex > * {
+      flex: 1 1 250px;
+      margin: 10px;
+    }
+
+    /* flex-grow расти доля занимаемая элементом, есл и у всех 1 знач поровну
+flex-shrink  сокращаться в опред кол-во раз меньше чем отсальные
+flex-basis ширина блока */
